@@ -1,0 +1,17 @@
+.image-video-cnt{
+    position: relative;
+}
+.video-img {
+    position: absolute;
+    top: 70%;
+    left: 27%;
+}
+.about-content a{
+    margin-top: 25px;
+}
+.video-img img {
+    width: 90%;
+}
+.main-img img{
+    width:70%
+}

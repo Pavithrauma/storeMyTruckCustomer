@@ -1,0 +1,515 @@
+.form_title {
+    position: relative;
+    padding-left: 55px;
+    margin-bottom: 10px
+}
+
+.form_title h3 strong {
+    background-color: #172961;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 18px;
+    line-height: 40px;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.form-control {
+    -webkit-appearance: auto;
+    -moz-appearance: auto;
+    appearance: auto;
+}
+
+.form_title h3 {
+    margin: 0;
+    padding: 0
+}
+
+.form_title p {
+    color: #999;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    line-height: 14px
+}
+
+.step {
+    border-left: 1px solid #ddd;
+    padding: 20px 0 20px 31px;
+    margin: 0 0 10px 20px
+}
+
+.form_title p {
+    color: #999;
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    line-height: 14px
+}
+
+.form-group-1.options {
+    border-bottom: 1px dotted #ddd;
+    padding-bottom: 30px;
+    margin-bottom: 15px;
+    /* top:20px */
+}
+
+.form-group-1.options strong {
+    position: relative;
+    top: 5px
+}
+
+label.error {
+    font-size: 11px;
+    position: absolute;
+    top: -12px;
+    right: 0;
+    z-index: 99;
+    height: 25px;
+    line-height: 25px;
+    background-color: #e34f4f;
+    color: #fff;
+    font-weight: 400;
+    padding: 0 6px
+}
+
+label.error:after {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 0 6px 6px 0;
+    border-color: transparent #e34f4f;
+    display: block;
+    width: 0;
+    z-index: 1;
+    bottom: -6px;
+    left: 20%
+}
+
+.button-back {
+    float: left
+}
+
+.button-next {
+    float: right
+}
+
+a.button-back,a.button-next {
+    text-decoration: none;
+    color: #fff
+}
+
+.button-back,.button-next {
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: #fff;
+    background: #83c99f;
+    cursor: pointer;
+    padding: 7px 20px;
+    display: inline-block;
+    outline: none;
+    font-size: 12px;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 20px
+}
+
+.button-back:hover,.button-next:hover {
+    background: #333;
+    text-decoration: none
+}
+
+#custom .step {
+    clear: left;
+    background: #fafafa;
+    padding: 30px;
+    margin: 0;
+    border: 0
+}
+
+#custom .step label {
+    display: block;
+    margin-bottom: 3px;
+    position: relative
+}
+
+#custom .step legend {
+    font-size: 11px
+}
+
+ul.stepy-titles {
+    margin: 0;
+    padding: 0
+}
+
+.stepy-titles {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    margin-bottom: 0;
+    height: 40px
+}
+
+.stepy-titles li:first-child {
+    margin-left: 0
+}
+
+.stepy-titles li {
+    cursor: pointer;
+    float: left;
+    padding: 7px 20px;
+    background: #f0f0f0;
+    font-weight: 600;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    position: relative;
+    font-size: 16px
+}
+
+.stepy-titles li span {
+    font-size: 11px;
+    display: block;
+    font-weight: 400
+}
+
+.stepy-titles .current-step {
+    cursor: auto;
+    background: #172961;
+    padding: 7px 20px;
+    color: #fff
+}
+
+.form-control.error {
+    background: #fdf5f5
+}
+
+.stepy-error {
+    display: block
+}
+
+.stepy-error label.error {
+ 
+    color: #fff;
+    display: block;
+    display: inline-block;
+    font-size: 12px;
+    padding: 6px 10px 0 25px;
+    margin: 8px 5px 2px 0;
+    -khtml-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -opera-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    position: static;
+    line-height: normal
+}
+
+.stepy-error label.error:after {
+    border-width: 0
+}
+
+/* input[type="submit"].finish {
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: #fff;
+    background: #333;
+    cursor: pointer;
+    padding: 7px 20px;
+    display: inline-block;
+    outline: none;
+    font-size: 12px;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 20px
+} */
+
+input#website {
+    display: none
+}
+.box_style_2 {
+    padding: 10px 25px 0;
+    margin-bottom: 20px;
+    /* border: 1px dashed #ddd */
+}
+
+.box_style_2 h4 {
+    margin: 10px 0 20px
+}
+
+.box_style_2 h5 {
+    font-size: 16px
+}
+
+.box_style_2 ul {
+    
+    padding-bottom: 10px
+}
+
+
+.box_style_2 ul li:last-child {
+    margin-bottom: 0
+}
+.sidebox{
+    position:sticky;
+    top:100px;
+}
+.book-form{
+    padding:30px 0;
+}
+.react-datepicker-wrapper {
+    display: block !important;
+
+}
+.check-box input{
+    width:15px;
+    height:15px;
+}
+.check-box{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+.check-box label{
+    margin-bottom:0;
+    
+}
+#quotation label{
+    font-size:15px;
+    
+}
+#quotation{
+    background: #4949490d;
+    padding: 30px 30px;
+    border-radius: 20px;
+}
+.phone-img {
+    text-align: center;
+    border: 1px solid #ededed;
+    border-radius: 10px;
+    margin-bottom: 13px;
+}
+.security{
+    text-align:center;
+    padding:10px 0;
+}
+.form-group-1 canvas{
+    width: 30% !important;
+    border: 1px solid #ededed;
+    border-radius: 10px;
+}
+.canva-btn {
+    background: #dfdfdf;
+    border: unset;
+    margin: 0 0 10px 0;
+    border-radius: 4px;
+    font-size: 13px;
+    padding: 5px 13px;
+}
+.box_style_2 {
+    border: 1px solid #dedede;
+    box-shadow: 0 1px 2px rgba(0,0,0,.08),0 4px 12px rgba(0,0,0,.05);
+    border-radius: 20px;
+    padding: 30px 24px;
+}
+.room-type {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 14px;
+    margin: 20px 0 20px 0;
+    border-bottom: 1px solid #dedede;
+    flex-wrap: wrap;
+}
+ .info-section {
+    padding: 0;
+    /* margin-bottom: 20px; */
+  
+}
+ .info-section ul li.ad-info ul li {
+    display: flex;
+    flex-direction:column;
+    font-size: 14px;
+    padding-bottom: 10px;
+ 
+}
+.ad-info li span:first-child{
+    font-weight:500;
+}
+.ad-info li span:nth-child(2) {
+    background: #edededc2;
+    padding: 13px 20px;
+    margin: 7px 0;
+}
+.aggrements span {
+    font-weight: 700;
+    color: #f00;
+}
+.aggrement_paragraph {
+    font-size: 15px;
+}
+.form-group-1 span{
+    color:#ff0000;
+    cursor:help;
+}
+.MuiButtonBase-root {
+    color:#fff !important;
+}
+.cus-tract span{
+    color:#ff0000;
+}
+.button-1 {
+    background: #ff0000;
+    border: unset;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 7px 17px;
+    margin-left: 10px;
+}
+.button-2 {
+    background: #172961;
+    border: unset;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 7px 17px;
+}
+.authuority{
+    text-align:center;
+    padding:0 0 15px 0;
+}
+.book-form h1 {
+    padding: 0px 0 15px 0;
+    text-align: center;
+    font-weight: 600;
+    font-size: 31px;
+}
+
+.book-form h6 {
+    padding: 0px 0 15px 0;
+    text-align: center;
+    color: #de2121;
+    
+    /* font-weight: 600;
+    font-size: 31px; */
+}
+
+.book-form .header-style p{
+    text-align: center;
+}
+.book-form .header-style span{
+    color: #de2121;
+    text-align: center; 
+}
+.vehicle-details .col-md-4{
+    display:flex;
+    align-items:center;
+}
+
+.tooltip-container {
+    position: relative; 
+  }
+  
+  .tooltip-text {
+    visibility: hidden;
+    background-color: #d6d0d0;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: -20%; /* Position the tooltip above the element */
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap; /* Prevents text from wrapping */
+  }
+  
+  .tooltip-container:hover .tooltip-text {
+    visibility: visible;
+  } 
+  .form-notification span{
+    color: red  ;
+    font-weight: 650;
+  }
+
+  .signature-pad{
+    background-color:rgba(255, 255, 255, 0.692);
+  }
+
+  .custom-paragraph {
+    border: 1px solid red;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.dropdown-header {
+  padding: 10px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.dropdown-list {
+  position: absolute;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-top: none;
+  background-color: #fff;
+  z-index: 1;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.dropdown-item {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.dropdown-item:hover {
+  background-color: #f0f0f0;
+}
+
+.highlight {
+  color: #ff5733; /* Bright color for remaining space */
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+

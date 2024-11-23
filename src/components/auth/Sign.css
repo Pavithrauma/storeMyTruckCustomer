@@ -1,0 +1,169 @@
+.cus-sign-row {
+    height: 100vh;
+    /* overflow-y: auto; */
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.sign-up-form {
+    overflow: auto;
+    height: 100vh;
+    background: #eff3f9;
+}
+.sign-img {
+    text-align: center;
+}
+.sign-img img{
+    width: 15%;
+}
+.login-form img{
+    width: 20%;
+}
+
+.form-control {
+    height: 50px;
+    line-height: 30px;
+    /* background: #f0f4f8; */
+    border: 1px solid #dae0ec;
+    font-size: 14px;
+    border-radius: 5px;
+    padding-left: 15px;
+    margin-bottom: 25px;
+    font-weight: 500;
+    color: #000 !important;
+    font-size: 14px;
+    opacity: 75%;
+    
+}
+.login-form {
+    background: #fff;
+    padding: 80px 80px;
+    border-radius: 8px;
+    width: 600px;
+}
+/* .cus-form{
+    padding: 0 140px;
+} */
+.form-control:focus {
+    outline: none;
+    
+    background: #f0f4f8;
+    border: unset;
+}
+.select {
+    height: 45px;
+    line-height: 30px;
+    background: #f0f4f8;
+    border-color: #f0f4f8;
+    width: 100%;
+    padding: 0 12px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.cus-form h2, .login-form h2 {
+    padding: 20px 0 20px 0;
+    color: #172961;
+    font-weight: 500;
+    font-size: 23px;
+    text-align: center;
+}
+.cus-pass, .cus-pass .form-control{
+    position: relative;
+}
+
+.cus-pass i {
+    position: absolute;
+    top: 23%;
+    right: 5%;
+}
+.red_btn {
+    width: auto;
+    background: #172961;
+    transition: all 0.2s linear;
+    padding: 8px 20%;
+    color: #fff;
+    font-weight: 600;
+    display: inline-block;
+    margin-top: 20px;
+}
+.red_btn:hover {
+    box-shadow: 0 4px 11px rgb(23 41 97 / 42%);
+    transform: translateY(-4px);
+}
+.line {
+    position: relative;
+    height: 1px;
+    width: 100%;
+    margin: 36px 0;
+    background-color: #d4d4d4;
+}
+.line::before {
+    content: 'Or';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FFF;
+    color: #8b8b8b;
+    padding: 0 15px;
+}
+.guest{
+    text-align: center;
+}
+.guest{
+    font-weight: 600;
+}
+.guest a{
+    color: #FF0000;
+}
+.logos{
+    position: absolute;
+    top: 4%;
+    left: 5%;
+}
+.cus-login{
+    position: relative;
+}
+.error {
+    font-size: 13px;
+    padding-bottom: 14px;
+    display: block;
+    color: #f00;
+}
+.cus-form {
+    background: #fff;
+    padding: 30px 60px 50px 60px;
+    border-radius: 8px;
+    width: 800px;
+}
+ label {
+  
+    color: #475569;
+    font-size: 13px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.error-message {
+    color: red;
+  }
+  /* Add this to your CSS file (e.g., Sign.css) */
+.custom-swal-popup {
+    top: 10% !important; /* Position the popup higher on the screen */
+  }
+  .custom-swal-popup {
+    font-family: 'Roboto', sans-serif!important;;
+    color: black;
+  }
+  .custom-swal-popup .swal2-title {
+    font-size: 1.5em; /* Increase the title size if needed */
+    margin-bottom: 0.5em; /* Adjust margin for better readability */
+  }
+  
+  .custom-swal-popup .swal2-content {
+    font-size: 1.2em; /* Adjust content font size */
+    color: #333; /* Change text color for readability */
+  }
+  

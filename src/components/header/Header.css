@@ -1,0 +1,47 @@
+.header-top{
+    background-color: #18171A;
+    padding: 10px 0;
+}
+.top-header a{
+    color: #fff;
+}
+.top-header :nth-child(2){
+    text-align: end;
+}
+.sticky-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9;
+    background: #fff;
+  }
+  .header-top .logo img {
+    width: 50%;  /* Make the image take up the full width of its container */
+    max-width: 50px;  /* Set a maximum width for the logo */
+    height: 50px;  /* Maintain aspect ratio */
+  }
+  .button1 {
+    display: inline-block; /* Ensures they behave similarly */
+    padding: 10px 20px;     /* Adjust size */
+    font-size: 16px;        /* Consistent text size */
+    color: #ffffff;         /* Text color */
+    background-color: #007bff; /* Background color for both */
+    border: none;           /* No border for button */
+    border-radius: 5px;    /* Rounded corners */
+    text-align: center;     /* Center text */
+    text-decoration: none;  /* Remove underline from link */
+    cursor: pointer;        /* Pointer cursor on hover */
+  }
+  
+  .button1:hover {
+    background-color: #0056b3; /* Darker background on hover */
+  }
+  
+  /* Optionally, add media queries for different screen sizes */
+  @media (max-width: 768px) {
+    .header-top .logo img {
+      max-width: 50px;  /* Adjust the max width for smaller screens */
+    }
+  }
+  

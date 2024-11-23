@@ -1,0 +1,170 @@
+/* Start Button Style */
+/* Styling the outer container */
+.parent-box-child {
+    background-color: #9cd1f7;
+    border: 1px solid transparent;
+    width: 90%;
+    margin: 20px auto; /* Center the box horizontally */
+    padding: 50px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Styling the inner content box */
+.parking-box-inner-child {
+    background-color: #74a4ed;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    width: 80%; /* Make inner box 50% width */
+    margin: 0 auto; /* Center the inner box */
+    height: 500px;
+}
+
+/* Button styling */
+.start-button {
+    padding: 10px 20px;
+    background-color: #0907b7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    width: 100%; /* Full width */
+    justify-content: center; /* Center the content */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+  }
+
+/* Button hover effect */
+.start-button:hover {
+    background-color: #0705a3; /* Slightly darker background on hover */
+}
+
+/* Arrow icon styling */
+.arrow-icon {
+    margin-left: 10px;
+    transition: transform 0.3s ease; /* Smooth transition for arrow icon */
+}
+
+/* Arrow icon hover effect */
+.start-button:hover .arrow-icon {
+    transform: translateX(5px); /* Move the arrow to the right on hover */
+}
+
+.form-container-2{
+    background-color: #e0f0ff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    width: 80%;
+    margin: 20px auto; /* Center the form and add margin for spacing */
+  }
+  
+  .form-group-1{
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  .form-group-1 {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .form-group-1 input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .submit-button {
+    padding: 10px 20px;
+    background-color: #0907b7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+  }
+  
+  .submit-button:hover {
+    background-color: #0705a3; /* Slightly darker background on hover */
+  }
+/* Initially hidden, only shown after form submit */
+/* Initially hidden, only shown after form submit */
+.thank-you-message {
+  visibility: hidden; /* Hidden initially */
+  opacity: 0; /* Start invisible */
+  width: 50%;
+  height: 80%;
+  background-color: #a6d8f5;
+  position: relative;
+  left: 300px;
+  top: 40px;
+  border: 2px solid transparent;
+  padding: 20px;
+  text-align: center;
+  transition: opacity 2s ease-in-out, visibility 0.5s ease-in-out; /* Smooth fade-in */
+}
+
+.thank-you-message.show {
+  visibility: visible; /* Show the element */
+  opacity: 1; /* Fade in */
+  animation: border-in-out 1.5s forwards ease-in-out; /* Animate the border */
+}
+
+/* Keyframes for border animation */
+@keyframes border-in-out {
+  0% {
+    border-color: transparent;
+    transform: scale(1); /* Default size */
+  }
+  50% {
+    border-color: rgb(139, 213, 243);
+    transform: scale(1.1); /* Enlarge */
+  }
+  100% {
+    border-color: rgb(163, 219, 233);
+    transform: scale(1); /* Return to original size */
+  }
+}
+
+/* Keyframes for icon bounce animation (from bigger to smaller) */
+@keyframes icon-bounce {
+  0% {
+    transform: scale(2); /* Start larger, outside the box */
+    opacity: 0; /* Start invisible */
+  }
+  50% {
+    transform: scale(1.5); /* Enlarge slightly */
+    opacity: 1; /* Fade in */
+  }
+  100% {
+    transform: scale(1); /* End with normal size */
+  }
+}
+
+/* Apply bounce animation to the check icon */
+.fa-check-circle-o{
+  animation: icon-bounce 2s ease-in-out forwards; /* Bounce effect on submission */
+  position: relative;
+  top: -10px;
+  width: 50%; 
+  height: 50%;/* Moves the icon outside the box initially */
+}
+
+/* Ensure text remains fixed during the animation */
+.thank-you-message h1,
+.thank-you-message p {
+  position: relative;
+  z-index: 1; /* Keep text above the animation */
+}
+
+
+
+  

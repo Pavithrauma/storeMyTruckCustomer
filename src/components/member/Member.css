@@ -1,0 +1,11 @@
+.member{
+    background: url(./../images/bg.png) 0 0 no-repeat;
+    background-size: cover;
+    background-position: left center;
+    background-attachment: fixed;
+    padding: 130px 0 130px;
+    height: 100%;
+    width: 100%;
+  
+   
+}

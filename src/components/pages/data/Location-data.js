@@ -1,0 +1,23 @@
+export const locationdata =[
+    {
+        url:'https://www.youtube.com/watch?v=dGhcljjTGbE',
+    },
+    {
+        url:'https://www.youtube.com/watch?v=f1LbK4AHmVc',
+    },
+    {
+        url:'https://www.youtube.com/watch?v=rN5kuihuRtA',
+    },
+    {
+        url:'https://www.youtube.com/watch?v=jkSyOUNcA8s',
+    },
+    {
+        url:'https://www.youtube.com/watch?v=UUtFMOXEKYk',
+    },
+    {
+        url:'https://www.youtube.com/watch?v=QNlCjxw8fVg',
+    },
+    {
+        url:'https://www.youtube.com/watch?v=dGhcljjTGbE',
+    },
+]

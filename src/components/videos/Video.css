@@ -1,0 +1,9 @@
+.video-section p{
+    text-align: center;
+}
+.video-section .row{
+    margin: 20px 0 20px 0;
+}
+.video-section iframe {
+    height: 300px;
+}
